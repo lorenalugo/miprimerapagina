@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<title>MiPrimeraPagina</title>
+
+<style type="text/css">
+	body {
+	  padding-top: 50px;
+	  background-color:#424242;
+	  position: relative;
+
+	}
+	.portfolio{
+	  background-color:white;
+	  border: #848484 solid 1px;
+	  padding: 30px;
+	  }
+	.about{
+	  background-color:#2E2E2E;
+	}
+	.icons {
+	  width:50px !important;
+	  height:50px !important;
+	  display:inline;
+	}
+	.final {
+	  color:white;
+	}
+	.ancho {
+	  width:100%;
+	  padding-top:30px;
+	  padding-bottom:30px;
+	}
+	.footer {
+	  padding-top:50px;
+	}
+	.imgs {
+	  width:50%;
+	  height:50%;
+	}
+	.acerca {
+	  padding-top:30px;
+	  padding-bottom:30px;
+	}
+</style>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav nav-pills navbar-right">
+              <li><a href="#acerca">Acerca de</a></li>
+              <li><a href="#portafolio">Portafolio</a></li>
+              <li class="active"><a href="#contacto">Contacto<span class="sr-only">(current)</span></a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+
+    <div>
+      <!--cuadro correspondiente a acerca de-->
+      <div class="container text-center bg-primary acerca" id="acerca">
+        <img class="img-responsive center-block" src="http://www.gravatar.com/avatar/bd95819ba54c4be3141612652ffbfb99"/>
+        <h2>Lorena Lugo</h2>
+        <p>Ingeniero Químico, Front-end Developer, Docente universiario, <br>amante de las matemáticas y ciencias, entusiasta del desarrollo web.</p>
+      </div>
+      <!--cuadro correspondiente a portafolio-->
+      <div class="container portfolio text-primary" id="portafolio">
+        <h1 class="text-center">Portafolio</h1>
+        <div class="row text-center">
+          <div class="col-md-6 footer">
+            <img class="img-responsive img-thumbnail imgs" src="https://getuikit.com/docs/images/placeholder_600x400.svg">
+          </div>
+          <div class="col-md-6 footer">
+            <img class="img-responsive img-thumbnail imgs" src="https://getuikit.com/docs/images/placeholder_600x400.svg">
+          </div>
+          <div class="col-md-6 footer">
+            <img class="img-responsive img-thumbnail imgs" src="https://getuikit.com/docs/images/placeholder_600x400.svg">
+          </div>
+          <div class="col-md-6 footer">
+            <img class="img-responsive img-thumbnail imgs" src="https://getuikit.com/docs/images/placeholder_600x400.svg">
+          </div>
+        </div>
+      </div>
+      <!--cuadro correspondiente a contacto-->
+      <div class="container portfolio" id="contacto">
+        <h1 class="text-center text-primary">Contacto</h1>
+        <br>
+        <div class="row">
+          <div class="col-md-6">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Nombre">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Teléfono">
+              </div>
+              <textarea rows="3" class="form-control" placeholder="Mensaje"></textarea>
+              <br>
+              <button type="submit" class="btn btn-default">Enviar</button>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <h3>Si desea ponerse en contacto para conocer más acerca de mi trabajo, para cualquier pregunta, asesoría o sugerencia; por favor deje los datos correspondientes, así como su mensaje.</h3>
+            <h3>Cualquier comentario es bien recibido</h3>
+          </div>
+        </div>
+        <br>
+      </div>
+
+    </div>
+
+    <div class="container text-center about ancho">
+      <div>
+        <h3 class="final">Sígueme</h3>
+        <div class="footer">
+          <a href="https://www.facebook.com/lorena.lugo.39"><img class="img-responsive icons img-circle" src="http://www.fundacionfranciscana.org/wp-content/uploads/2014/07/icono-facebook.jpg"></a>
+          <a href="https://www.linkedin.com/in/lorena-lugo-b7b991116?trk=nav_responsive_tab_profile"><img class="img-responsive icons" src="http://icons.iconarchive.com/icons/martz90/circle/512/linkedin-icon.png"></a>
+        </div>
+      </div>
+      <div>
+        <footer class="final footer">Creado por Lorena Lugo</footer>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
